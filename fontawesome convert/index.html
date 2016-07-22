@@ -20,6 +20,7 @@
 			}
 
 			$.ajax({
+				// Gets it directly from the FontAwesome GitHub project!
 				url: "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/scss/_variables.scss",
 				type: "GET",
 				success: function(scss) {
@@ -42,8 +43,6 @@
 							csCode += "&emsp;public static char " + csKey + " = '\\uf" + csValue + "';<br>";
 						}
 					}
-
-					console.log(objects);
 
 					csCode += "}";
 
