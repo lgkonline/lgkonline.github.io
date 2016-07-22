@@ -7,3 +7,5 @@ It converts the FontAwesome icon library into a static C# class containing all i
 This allows you to quickly use those icons by name.
 
 The data will get received directly from the FontAwesome GitHub project, so it is always up-to-date.
+
+Checkout the service at: http://lgkonline.github.io/fontawesome%20convert/
